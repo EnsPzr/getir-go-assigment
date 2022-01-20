@@ -1,0 +1,72 @@
+[
+  {
+    "_id":  "5ee21587e07f053f990ceafd",
+    "counts": [864, 509, 712],
+    "createdAt": "2015-11-28T11:47:29.706Z",
+    "key": "hCXxyuAu",
+    "value": "hfJAfcGGizzJ"
+  },
+  {
+    "_id":  "5ee21587e07f053f990ceb33",
+    "counts": [854, 1793, 127],
+    "createdAt": "2015-10-14T08:43:13.661Z",
+    "key": "cqgTPAdM",
+    "value": "JaugKbZRIJSG"
+  },
+  {
+    "_id":  "5ee21587e07f053f990ceb5e",
+    "counts": [2, 1340, 651],
+    "createdAt": "2016-12-27T03:12:14.477Z",
+    "key": "wgDZfKYA",
+    "value": "fqkQYKzZguYo"
+  },
+  {
+    "_id":  "5ee21587e07f053f990ceb9e",
+    "counts": [991, 1955, 797],
+    "createdAt": "2015-03-05T12:16:12.862Z",
+    "key": "ZWYNnfiR",
+    "value": "ESdCQOjqHGCI"
+  },
+  {
+    "_id":  "5ee21587e07f053f990cebfd",
+    "counts": [542, 615, 386],
+    "createdAt": "2015-03-09T17:57:09.148Z",
+    "key": "hxltXBrS",
+    "value": "NegsVBzzjhoo"
+  },
+  {
+    "_id":  "5ee21587e07f053f990cec0a",
+    "counts": [1739, 1805, 96],
+    "createdAt": "2016-02-03T22:29:06.578Z",
+    "key": "zGnqCPfy",
+    "value": "SwKtNAPADOAY"
+  },
+  {
+    "_id":  "5ee21588e07f053f990cec45",
+    "counts": [1949, 377, 1689],
+    "createdAt": "2016-02-23T13:34:35.687Z",
+    "key": "ZRUTBQxA",
+    "value": "lGgAfxufQkrb"
+  },
+  {
+    "_id":  "5ee21588e07f053f990cec5d",
+    "counts": [1083, 700, 1820],
+    "createdAt": "2015-04-16T11:55:08.878Z",
+    "key": "oMLktkgd",
+    "value": "wvuKPlmrpRil"
+  },
+  {
+    "_id":  "5ee21588e07f053f990cec79",
+    "counts": [1837, 640, 260],
+    "createdAt": "2015-12-11T21:05:51.775Z",
+    "key": "GjhjVIKb",
+    "value": "CSZxYgzCCLmJ"
+  },
+  {
+    "_id":  "5ee21588e07f053f990cec8f",
+    "counts": [525, 1618, 1038],
+    "createdAt": "2016-10-02T10:17:40.960Z",
+    "key": "RLxDIAXl",
+    "value": "LzjyLozjTzkU"
+  }
+]
