@@ -1,0 +1,59 @@
+definitions:
+  model.Response:
+    properties:
+      code:
+        type: integer
+      msg:
+        type: string
+      records: {}
+    type: object
+host: getir-go-assigment.herokuapp.com
+info:
+  contact:
+    email: m.enespazar@gmail.com
+    name: Mehmet Enes PAZAR
+    url: https://enespazar.com
+  description: This project
+  title: Getir Go Assigment
+  version: "1.0"
+paths:
+  /records:
+    get:
+      consumes:
+      - application/json
+      description: |-
+        This function returns records in database by filters.
+        Filter contains startDate, endDate, minCount, maxCount.
+        If startDate has value, createdAt returns records greater than startDate.
+        If endDate has value, createdAt returns records smaller than endDate.
+        Date format is YYYY-MM-DD.
+        If minCount has value, sum "counts" returns records greater than minCount.
+        If maxCount has value, sum "counts" returns records smaller than maxCount.
+      parameters:
+      - description: Start Date
+        in: query
+        name: startDate
+        type: string
+      - description: End Date
+        in: query
+        name: endDate
+        type: string
+      - description: Min Count
+        in: query
+        name: minCount
+        type: integer
+      - description: Max Count
+        in: query
+        name: maxCount
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/model.Response'
+      summary: Get All records by database.
+      tags:
+      - record
+swagger: "2.0"

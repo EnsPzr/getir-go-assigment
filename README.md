@@ -5,6 +5,8 @@ This project was given as homework by Getir. This is a restful api project. Mong
 the project. Mongodb is used for database. Go-cache and sqlite are used for in-memory database. Project has 5
 routes. <br>
 
+<a href="https://getir-go-assigment.herokuapp.com/swagger">Swagger</a>
+
 <h2>Summary of Routes:</h2>
 <ul>
 <li>

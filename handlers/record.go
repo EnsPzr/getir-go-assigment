@@ -23,6 +23,25 @@ var (
 // If minCount has value, sum "counts" returns records greater than minCount.
 // If maxCount has value, sum "counts" returns records smaller than maxCount.
 // Request url: /records?startDate=2015-10-14&endDate=2016-12-27&minCount=10&maxCount=4000 (GET)
+
+// RecordGetAll godoc
+// @Summary Get All records by database.
+// @Description This function returns records in database by filters.
+// @Description Filter contains startDate, endDate, minCount, maxCount.
+// @Description If startDate has value, createdAt returns records greater than startDate.
+// @Description If endDate has value, createdAt returns records smaller than endDate.
+// @Description Date format is YYYY-MM-DD.
+// @Description If minCount has value, sum "counts" returns records greater than minCount.
+// @Description If maxCount has value, sum "counts" returns records smaller than maxCount.
+// @Tags record
+// @Accept  json
+// @Produce  json
+// @Success 200 {object} model.Response
+// @Param startDate query string false "Start Date"
+// @Param endDate query string false "End Date"
+// @Param minCount query int false "Min Count"
+// @Param maxCount query int false "Max Count"
+// @Router /records [get]
 func RecordGetAll(w http.ResponseWriter, r *http.Request) {
 	if r.Method == "OPTIONS" {
 		successRecordResponse(w, nil)
